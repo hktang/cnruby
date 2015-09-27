@@ -90,7 +90,7 @@ ARM内部人士透露，11月5日，ARM高级副总裁lanDrew参观了联想研�
 <!DOCTYPE html>
 <html lang="cn">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8">
 <title>分词测试</title>
 </head>
 <body>

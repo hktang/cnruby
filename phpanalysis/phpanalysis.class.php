@@ -67,7 +67,7 @@ class PhpAnalysis
     //粗分后的数组（通常是截取句子等用途）
     private $simpleResult = array();
     //最终结果(用空格分开的词汇列表)
-    private $finallyResult = '';
+    protected $finallyResult = '';
     
     //是否已经载入词典
     public $isLoadDic = false;
@@ -880,7 +880,7 @@ class PhpAnalysis
      * @parem str
      * return string
      */
-     private function _out_string_encoding( &$str )
+     protected function _out_string_encoding( &$str )
      {
         $rsc = $this->_source_result_charset();
         if( $rsc==1 ) {

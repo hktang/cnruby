@@ -9,6 +9,12 @@ class ruby extends PhpAnalysis
      */
      public function GetFinallyResultAsArray($spword=' ', $word_meanings=false)
      {
-        return $this->finallyResult;
+        $result = $this->finallyResult;
+        $output = array();
+        foreach ($result as $v)
+        {
+        	$output[] = $this->_out_string_encoding($v['w']);
+        }
+        return $output;
      }
 }
