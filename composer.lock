@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13f160bb87a78423274b1d5ca4c42f8e",
-    "content-hash": "89450e7e99f3b06605d0bddd98e0a965",
+    "hash": "b303db1e8fc8c8d947995bb4d3123588",
+    "content-hash": "8fa85c5c2c9d801d0e148284b7916733",
     "packages": [
         {
             "name": "overtrue/pinyin",

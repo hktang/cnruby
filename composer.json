@@ -1,4 +1,5 @@
 {
+    "name": "hktang/ruby",
     "require": {
         "overtrue/pinyin": "2.*"
     }
